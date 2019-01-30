@@ -82,3 +82,72 @@ section {
     color: #364147;
 }
 
+.header-nav {
+    border-bottom: 1px solid #a0a0a0;
+}
+
+.brand {
+    width: 170px;
+    height: 85px;
+    margin-left: -15px;
+    margin-right: 60px;
+}
+
+.logo {
+    max-width: 100%;
+    height: auto;
+}
+
+.search-box {
+    width: 330px;
+    height: 30px;
+    padding: 6px 12px;
+    border: 1px solid #a0a0a0;
+}
+
+.search-button {
+    background-color: #a0a0a0;
+    color: #ffffff;
+    width: 100px;
+    height: 30px;
+    border: 0;
+    padding: 0;
+}
+
+.nav-list {
+    padding-left: 0;
+    width: 575px;
+    margin-top: 10px; 
+}
+
+.nav-list li a {
+    font-size: 16px;
+    text-transform: uppercase;
+    font-weight: 700;
+    letter-spacing: 0.2px;
+}
+
+.profile {
+    margin-left: auto;
+}
+
+.account {
+    text-align: right;
+    padding: 15px;
+    color: #364147;
+    font-size: 18px;
+}
+
+.account a {
+    font-size: 14px;
+}
+
+.profile-pic {
+    width: 60px;
+    height: 60px;
+}
+
+.profile-pic img {
+    border-radius: 100px;
+    max-width: 100%;
+}
