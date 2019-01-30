@@ -13,3 +13,30 @@ h1, h2, h3, h4, h5, h6 { margin: 0; }
     max-width: 1170px;
 }
 
+section {
+    display: flex;
+}
+
+.flex {
+    display: flex;
+}
+
+.flex-column {
+    flex-direction: column;
+}
+
+.flex-one {
+    flex: 1;
+}
+
+.align-center {
+    align-items: center;
+}
+
+.center {
+    justify-content: center;
+}
+
+.space-between {
+    justify-content: space-between;
+}
