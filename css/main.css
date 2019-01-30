@@ -40,3 +40,45 @@ section {
 .space-between {
     justify-content: space-between;
 }
+
+.btn {
+    cursor: pointer;
+    border: none;
+    padding: 6px 12px 6px 12px;
+    border-radius: 3px;
+    line-height: 1.4;
+}
+
+.btn-default {
+    color: #ffffff;
+    background-color: #faa541;
+}
+
+.btn-primary {
+    color: #ffffff
+    background-color: #364147;
+}
+
+.form-control {
+    display: block;
+    padding: 6px 12px 6px 12px;
+    border: 1px solid #a0a0a0;
+    color: #8598a2;
+    line-height: 1.4;
+}
+
+.text-light {
+    font-size: 30px; 
+    color: #a0a0a0;
+}
+
+.text-secondary {
+    font-size: 30px;
+    color: #faa541;
+}
+
+.text-primary {
+    font-size: 16px;
+    color: #364147;
+}
+
