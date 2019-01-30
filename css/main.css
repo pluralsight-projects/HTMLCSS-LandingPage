@@ -238,11 +238,11 @@ section {
 
 .full-banner {
     padding: 0 15px;
-    margin: 50px 0;
+    margin: 50px 0px;
     position: relative;
 }
 
-.full-banner:before {
+.full-banner::before {
     content: "";
     position: absolute;
     border: 1px solid #ffffff;
@@ -293,7 +293,7 @@ section {
 }
 
 .full-banner-sidebar > div:nth-of-type(2) {
-    font-size: 25px
+    font-size: 25px;
     font-weight: 200;
     letter-spacing: 3px;
 }
