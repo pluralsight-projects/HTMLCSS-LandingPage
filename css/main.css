@@ -142,7 +142,7 @@ section{
     max-width:100%
 }
 .hero{
-    background-image: url("../img/hero.jpg");
+    background-image: url('../img/hero.jpg');
     height: 400px;
     background-size: cover;
     text-transform: uppercase;
@@ -176,11 +176,11 @@ section{
     
 }
 .banner img{
-    width:25px;
+    width:250px;
 }
 .banner-text{
     font-size :30px;
-font-weight : 700:
+font-weight : 700;
 text-transform : uppercase;
 line-height : 1;
 text-align : center;
@@ -207,4 +207,9 @@ text-align : center;
     font-size : 30px;
     font-weight : 700;
     line-height :1;
+}
+.category-text h3{
+    font-size : 30px;
+font-weight : 700;
+line-height : 1;
 }
