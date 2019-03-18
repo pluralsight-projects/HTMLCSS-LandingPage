@@ -202,7 +202,7 @@ section {display: flex;}
     right: 50px;
     z-index: 1;
 }
-.full-banner img {
+.full-banner-image {
     flex: 0 0 58.333333%;
     background-image: url('../img/vista.jpg');
     background-size: cover;
