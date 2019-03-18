@@ -78,6 +78,7 @@ section {display: flex;}
     width: 100px;
     height: 30px;
     padding: 0;
+    border: 0;
 }
 .search-box {
     width: 330px;
