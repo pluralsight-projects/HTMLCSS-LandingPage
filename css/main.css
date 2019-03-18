@@ -210,6 +210,7 @@ section {display: flex;}
     min-height: 400px;
 }
 .full-banner-sidebar {
+    flex: 0 0 41.666667%;
     background-color: #364147;
     text-transform: uppercase;
     padding: 30px;
@@ -217,8 +218,8 @@ section {display: flex;}
 }
 .full-banner-sidebar h4:after {
     content: "";
-    width: 100;
-    height: 1;
+    width: 100px;
+    height: 1px;
     background-color: #faa541;
     margin: 20px auto;
     display: block;
