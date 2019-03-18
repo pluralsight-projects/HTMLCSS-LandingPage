@@ -84,8 +84,7 @@ section {display: flex;}
     width: 330px;
     height: 30px;
     padding: 6px 12px;
-    border: 1px;
-    border-color: #a0a0a0;
+    border: 1px solid #a0a0a0;
 }
 .nav-list {
     padding-left: 0;
