@@ -41,13 +41,13 @@ section {display: flex;}
 .form-control {
     display: block;
     padding: 6px 12px;
-    border: 1px solid #a0a0aa;
+    border: 1px solid #a0a0a0;
     color: #8598a2;
     line-height: 1.4;
 }
 .text-light {
     font-size: 30px;
-    color: #a0a0aa;
+    color: #a0a0a0;
 }
 .text-secondary {
     font-size: 30px;
