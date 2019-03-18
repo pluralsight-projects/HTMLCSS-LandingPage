@@ -216,6 +216,13 @@ section {display: flex;}
     padding: 30px;
     color: #ffffff;
 }
+.full-banner-sidebar h4 {
+    font-size: 40px;
+    font-weight: 700;
+    font-style: italic;
+    color: #637f94;
+    line-height: 1;
+}
 .full-banner-sidebar h4:after {
     content: "";
     width: 100px;
