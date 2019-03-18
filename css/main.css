@@ -124,26 +124,26 @@ section {display: flex;}
     background-position: center;
     text-transform: uppercase;
 }
-.hero div h1 {
+.hero h1 {
     position: relative;
     offset-position: -30px;
 }
-.hero div h2 {
+.hero h2 {
     color: #faa541;
 }
-.hero div h1 h2 {
+.hero h1 h2 {
     font-size: 63px;
     font-weight: 700;
     line-height: 0.9;
 }
-.hero div p {
+.hero p {
     letter-spacing: 2px;
     font-weight: 700;
     font-size: 21px;
     margin: 0 0 0 10px;
 }
 .banner {
-    margin: 55px 15 px;
+    margin: 55px 15px;
     width: 100%;
     border-top: 1px solid #a0a0a0;
     border-bottom: 1px solid #a0a0a0;
