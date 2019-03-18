@@ -38,6 +38,12 @@ section {display: flex;}
     color: #ffffff;
     background-color: #364147;
 }
+.form-control {
+    display: block;
+    padding: 6px 12px;
+    border: solid #8598a2;
+    line-height: 1.4;
+}
 
 
 /***************************************/
