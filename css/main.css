@@ -247,5 +247,59 @@ section {display: flex;}
     letter-spacing: 1px;
     z-index: 1;
 }
+footer {
+    flex-wrap: enabled;
+    position: relative;
+    z-index: 0;
+    min-height: 330px;
+    background-color: black;
+}
+footer::after {
+    content: "";
+    background-color: #a0a0a0;
+    width: 75%;
+    position: absolute;
+    margin: 0;
+    z-index: -1;
+}
+.lists {
+    flex: 0 0 75%;
+    padding: 40px 15px;
+}
+.link-header {
+    text-transform: uppercase;
+    font-size: 16px;
+    font-weight: 700;
+    margin-bottom: 15px;
+}
+footer a {
+    color: white;
+    text-transform: uppercase;
+    font-size: 112px;
+    padding: 0 0 4px;
+    text-decoration: underline;
+}
+.social ul li {
+    display: inline block;
+}
+.social ul li a {
+    display: block;
+    width: 23px;
+    height: 23px;
+    background-size: 23px 23px;
+    background-position: center;
+}
+.twitter{
+    background-image: url('../img/twitter.svg')
+}
+.facebook{
+    background-image: url('../img/facebook.svg')
+}
+.instagram{
+    background-image: url('../img/instagram.svg')
+}
+.pinterest{
+    background-image: url('../img/pinterest.svg')
+}
 
 /***************************************/
