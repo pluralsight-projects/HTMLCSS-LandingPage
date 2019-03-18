@@ -62,8 +62,8 @@ section {display: flex;}
     color: #a0a0a0;
 }
 .brand {
-    height: 170px;
-    width: 85px;
+    width: 170px;
+    height: 85px;
     margin-left: -15px;
     margin-right: 60px; 
 }
@@ -75,9 +75,16 @@ section {display: flex;}
 .search-button {
     background-color: #a0a0a0;
     color: #ffffff;
-    height: 100px;
-    widows: 30px;
+    width: 100px;
+    height: 30px;
     padding: 0;
+}
+.search-box {
+    width: 330px;
+    height: 30px;
+    padding: 6px 12px;
+    border: 1px;
+    border-color: #a0a0a0;
 }
 .nav-list {
     padding-left: 0;
