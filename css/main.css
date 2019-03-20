@@ -275,12 +275,13 @@ footer::after {
     font-weight: 700;
     margin-bottom: 15px;
 }
-footer a {
+footer a:hover {
     color: white;
     text-transform: uppercase;
     font-size: 12px;
     padding: 0 0 4px;
     text-decoration: underline;
+    
 }
 .social ul li {
     display: inline-block;
@@ -338,7 +339,7 @@ footer a {
 .demo {
     padding: 0 30px;
 }
-.demo::before {
+.demo:before {
     content: "";
     display: block;
     width: 100%;
