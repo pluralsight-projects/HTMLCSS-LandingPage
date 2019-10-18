@@ -1,0 +1,77 @@
+/************* BASE STYLES *************/
+* { box-sizing: border-box; }
+body { font-family: 'Open Sans', sans-serif; font-size: 14px; line-height: 1.4; color: #364147; margin: 0; }
+input, button { font-family: inherit; font-size: inherit; }
+a { color: #faa541; text-decoration: none; }
+ul { padding: 0; margin: 0; list-style: none; }
+nav { padding: 10px 0; }
+h1, h2, h3, h4, h5, h6 { margin: 0; }
+/***************************************/
+
+.container {
+  max-width: 1170px;
+  margin: 0 auto;
+}
+
+/* Button Classes */
+.btn {
+  cursor: pointer;
+  border: 0px;
+  padding: 6px 12px;
+  border-radius: 3px;
+  line-height: 1.4;
+}
+.btn-default {
+  color: white;
+  background-color: #faa541
+}
+.btn-primary {
+  color: white;
+  background-color: #364147;
+}
+/* Button Classes end */
+
+.form-control {
+  display: block;
+  padding: 6px 12px;
+  border: solid 1px #a0a0a0;
+  color: #8598a2;
+  line-height: 1.4;
+}
+
+.text-light {
+  font-size: 30px;
+  color: #a0a0a0;
+}
+.text-secondary {
+  font-size: 30px;
+  color: #faa541
+}
+.text-primary {
+  font-size: 16px;
+  color: #364147;
+}
+
+/* Flex Section */
+section {
+  display: flex;
+}
+.flex {
+  display: flex;
+}
+.flex-column {
+  flex-direction: column;
+}
+.flex-one {
+  flex: 1;
+}
+.align-center {
+  align-items: center;
+}
+.center {
+  justify-content: center;
+}
+.space-between {
+  justify-content: space-between;
+}
+/* Flex Secion End */
