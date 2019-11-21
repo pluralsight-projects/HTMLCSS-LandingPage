@@ -1,0 +1,9 @@
+# Dependency directories
+node_modules/
+
+# macOS
+.DS_Store
+
+# backstopjs
+backstop_data/html_report/
+backstop_data/bitmaps_test/

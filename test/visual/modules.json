@@ -1,0 +1,122 @@
+{
+  "id": "htmlcss_carvedrock",
+  "viewports": [
+    {
+      "label": "desktop",
+      "width": 1280,
+      "height": 1024
+    }
+  ],
+  "onBeforeScript": "puppet/onBefore.js",
+  "onReadyScript": "puppet/onReady.js",
+  "scenarios": [
+    {
+      "label": "Utility Classes",
+      "url": "./index.html",
+      "delay": 100,
+      "selectors": [
+        "nav",
+        "nav + section",
+        "nav + section + div > section:nth-of-type(1)",
+        "nav + section + div > section:nth-of-type(2)",
+        "nav + section + div > section:nth-of-type(3)",
+        "footer"
+      ],
+      "selectorExpansion": true,
+      "misMatchThreshold" : 0.1,
+      "requireSameDimensions": true
+    },
+    {
+      "label": "Header & Navigation",
+      "url": "./index.html",
+      "delay": 100,
+      "selectors": ["nav",
+        "nav > div > div:nth-of-type(1)",
+        "nav > div > div:nth-of-type(1) img",
+        "nav > div > div:nth-of-type(2) input",
+        "nav > div > div:nth-of-type(2) button",
+        "nav > div > div:nth-of-type(2) ul",
+        "nav > div > div:nth-of-type(2) ul a",
+        "nav > div > div:nth-of-type(2) > div:nth-of-type(2)",
+        "nav > div > div:nth-of-type(2) > div:nth-of-type(2) > div:nth-of-type(1)",
+        "nav > div > div:nth-of-type(2) > div:nth-of-type(2) > div:nth-of-type(2)"],
+      "selectorExpansion": true,
+      "misMatchThreshold" : 0.1,
+      "requireSameDimensions": true
+    },
+    {
+      "label": "Hero, Sales Banner, & Categories",
+      "url": "./index.html",
+      "delay": 100,
+      "selectors": [
+        "nav + section",
+        "nav ~ div > section:nth-of-type(1)",
+        "nav ~ div > section:nth-of-type(1) > div",
+        "nav ~ div > section:nth-of-type(1) > div img",
+        "nav ~ div > section:nth-of-type(1) > div > div",
+        "nav ~ div > section:nth-of-type(2) > div:nth-of-type(1)",
+        "nav ~ div > section:nth-of-type(2) > div:nth-of-type(2)",
+        "nav ~ div > section:nth-of-type(2) > div:nth-of-type(3)",
+        "nav ~ div > section:nth-of-type(2) > div:nth-of-type(4)"
+      ],
+      "selectorExpansion": true,
+      "misMatchThreshold" : 0.1,
+      "requireSameDimensions": true
+    },
+    {
+      "label": "Full Banner",
+      "url": "./index.html",
+      "delay": 100,
+      "selectors": [
+        "nav ~ div > section:nth-of-type(3)",
+        "nav ~ div > section:nth-of-type(3) > div:nth-of-type(1)",
+        "nav ~ div > section:nth-of-type(3) > div:nth-of-type(2)",
+        "nav ~ div > section:nth-of-type(3) > div:nth-of-type(2) h4",
+        "nav ~ div > section:nth-of-type(3) > div:nth-of-type(2) > div:nth-of-type(1)",
+        "nav ~ div > section:nth-of-type(3) > div:nth-of-type(2) > div:nth-of-type(2)",
+        "nav ~ div > section:nth-of-type(3) a"
+      ],
+      "selectorExpansion": true,
+      "misMatchThreshold" : 0.1,
+      "requireSameDimensions": true
+    },
+    {
+      "label": "Footer",
+      "url": "./index.html",
+      "delay": 100,
+      "selectors": [
+        "footer",
+        "footer > section > div:nth-of-type(1)",
+        "footer > section > div:nth-of-type(2)",
+        "footer > section > div:nth-of-type(3)",
+        "footer > section > div:nth-of-type(4)",
+        "footer > section > div:nth-of-type(1) > div",
+        "footer > section > div:nth-of-type(2) > div",
+        "footer > section > div:nth-of-type(3) > div",
+        "footer > section > div:nth-of-type(4) > div",
+        "footer > section > div:nth-of-type(4) > div:nth-of-type(2)",
+        "footer > section > div:nth-of-type(4) > div:nth-of-type(2) > input",
+        "footer > section > div:nth-of-type(4) > div:nth-of-type(2) > button"
+      ],
+      "selectorExpansion": true,
+      "misMatchThreshold" : 0.1,
+      "requireSameDimensions": true
+    }
+  ],
+  "paths": {
+    "bitmaps_reference": "backstop_data/bitmaps_reference",
+    "bitmaps_test": "backstop_data/bitmaps_test",
+    "engine_scripts": "backstop_data/engine_scripts",
+    "html_report": "backstop_data/html_report",
+    "ci_report": "backstop_data/ci_report"
+  },
+  "report": ["browser"],
+  "engine": "puppeteer",
+  "engineOptions": {
+    "args": ["--no-sandbox"]
+  },
+  "asyncCaptureLimit": 5,
+  "asyncCompareLimit": 50,
+  "debug": false,
+  "debugWindow": false
+}

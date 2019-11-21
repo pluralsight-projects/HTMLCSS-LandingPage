@@ -1,0 +1,48 @@
+{
+  "id": "htmlcss_carvedrock",
+  "viewports": [
+    {
+      "label": "desktop",
+      "width": 1280,
+      "height": 1024
+    }
+  ],
+  "onBeforeScript": "puppet/onBefore.js",
+  "onReadyScript": "puppet/onReady.js",
+  "scenarios": [
+    {
+      "label": "Header & Navigation",
+      "url": "./index.html",
+      "delay": 100,
+      "selectors": ["nav",
+        "nav > div > div:nth-of-type(1)",
+        "nav > div > div:nth-of-type(1) img",
+        "nav > div > div:nth-of-type(2) input",
+        "nav > div > div:nth-of-type(2) button",
+        "nav > div > div:nth-of-type(2) ul",
+        "nav > div > div:nth-of-type(2) ul a",
+        "nav > div > div:nth-of-type(2) > div:nth-of-type(2)",
+        "nav > div > div:nth-of-type(2) > div:nth-of-type(2) > div:nth-of-type(1)",
+        "nav > div > div:nth-of-type(2) > div:nth-of-type(2) > div:nth-of-type(2)"],
+      "selectorExpansion": true,
+      "misMatchThreshold" : 0.1,
+      "requireSameDimensions": true
+    }
+  ],
+  "paths": {
+    "bitmaps_reference": "backstop_data/bitmaps_reference",
+    "bitmaps_test": "backstop_data/bitmaps_test",
+    "engine_scripts": "backstop_data/engine_scripts",
+    "html_report": "backstop_data/html_report",
+    "ci_report": "backstop_data/ci_report"
+  },
+  "report": ["browser"],
+  "engine": "puppeteer",
+  "engineOptions": {
+    "args": ["--no-sandbox"]
+  },
+  "asyncCaptureLimit": 5,
+  "asyncCompareLimit": 50,
+  "debug": false,
+  "debugWindow": false
+}

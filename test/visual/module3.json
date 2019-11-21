@@ -1,0 +1,49 @@
+{
+  "id": "htmlcss_carvedrock",
+  "viewports": [
+    {
+      "label": "desktop",
+      "width": 1280,
+      "height": 1024
+    }
+  ],
+  "onBeforeScript": "puppet/onBefore.js",
+  "onReadyScript": "puppet/onReady.js",
+  "scenarios": [
+    {
+      "label": "Hero, Sales Banner, & Categories",
+      "url": "./index.html",
+      "delay": 100,
+      "selectors": [
+        "nav + section",
+        "nav ~ div > section:nth-of-type(1)",
+        "nav ~ div > section:nth-of-type(1) > div",
+        "nav ~ div > section:nth-of-type(1) > div img",
+        "nav ~ div > section:nth-of-type(1) > div > div",
+        "nav ~ div > section:nth-of-type(2) > div:nth-of-type(1)",
+        "nav ~ div > section:nth-of-type(2) > div:nth-of-type(2)",
+        "nav ~ div > section:nth-of-type(2) > div:nth-of-type(3)",
+        "nav ~ div > section:nth-of-type(2) > div:nth-of-type(4)"
+      ],
+      "selectorExpansion": true,
+      "misMatchThreshold" : 0.1,
+      "requireSameDimensions": true
+    }
+  ],
+  "paths": {
+    "bitmaps_reference": "backstop_data/bitmaps_reference",
+    "bitmaps_test": "backstop_data/bitmaps_test",
+    "engine_scripts": "backstop_data/engine_scripts",
+    "html_report": "backstop_data/html_report",
+    "ci_report": "backstop_data/ci_report"
+  },
+  "report": ["browser"],
+  "engine": "puppeteer",
+  "engineOptions": {
+    "args": ["--no-sandbox"]
+  },
+  "asyncCaptureLimit": 5,
+  "asyncCompareLimit": 50,
+  "debug": false,
+  "debugWindow": false
+}

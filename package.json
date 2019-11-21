@@ -1,0 +1,44 @@
+{
+  "name": "htmlcss-landingpage",
+  "version": "1.0.0",
+  "description": "Build a Rock Climbing Company Landing Page with HTML & CSS - https://pluralsight.com",
+  "scripts": {
+    "start": "lite-server",
+    "test": "cross-env NODE_ENV=test mocha './test/unit/*.test.js' || true",
+    "test:module1": "cross-env NODE_ENV=test mocha './test/unit/module1.test.js' || true",
+    "test:module2": "cross-env NODE_ENV=test mocha './test/unit/module2.test.js' || true",
+    "test:module3": "cross-env NODE_ENV=test mocha './test/unit/module3.test.js' || true",
+    "test:module4": "cross-env NODE_ENV=test mocha './test/unit/module4.test.js' || true",
+    "test:module5": "cross-env NODE_ENV=test mocha './test/unit/module5.test.js' || true",
+    "visual:modules": "cross-env backstop test --config='./test/visual/modules.json' || true",
+    "visual:module1": "cross-env backstop test --config='./test/visual/module1.json' || true",
+    "visual:module2": "cross-env backstop test --config='./test/visual/module2.json' || true",
+    "visual:module3": "cross-env backstop test --config='./test/visual/module3.json' || true",
+    "visual:module4": "cross-env backstop test --config='./test/visual/module4.json' || true",
+    "visual:module5": "cross-env backstop test --config='./test/visual/module5.json' || true"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pluralsight-projects/HTMLCSS-LandingPage.git"
+  },
+  "author": "Thomas Bell",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/pluralsight-projects/HTMLCSS-LandingPage/issues"
+  },
+  "homepage": "https://github.com/pluralsight-projects/HTMLCSS-LandingPage#readme",
+  "dependencies": {
+    "chai": "^4.2.0",
+    "cheerio": "^1.0.0-rc.2",
+    "cross-env": "^5.2.0",
+    "mocha": "^5.2.0",
+    "postcss": "^7.0.5",
+    "postcss-merge-longhand": "^4.0.7",
+    "postcss-values-parser": "^2.0.0",
+    "ramda": "^0.25.0"
+  },
+  "devDependencies": {
+    "backstopjs": "^3.8.2",
+    "lite-server": "^2.4.0"
+  }
+}
