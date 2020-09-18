@@ -28,10 +28,10 @@ section {display: flex; }
       display: block;
       padding: 6px 12px;
       border: 1px solid #a0a0a0;
-      color: #8598a2 ;
+      color: #8598a2;
       line-height: 1.4;
 }
 
 .text-light {font-size: 30px; color: #a0a0a0;}
 .text-secondary { font-size: 30px; color: #faa541;}
-.text-primary {font-size:16px; color: #364147; }
+.text-primary {font-size: 16px; color: #364147; }
