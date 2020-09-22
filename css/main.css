@@ -34,3 +34,70 @@ section {display: flex;}
 .text-light {font-size: 30px; color: #a0a0a0;}
 .text-secondary {font-size: 30px; color: #faa541;}
 .text-primary {font-size: 16px; color: #364147;}
+.header-nav {border-bottom: 1px; color: #a0a0a0;
+}
+.brand {
+  width: 170px;
+  height:85px;
+  margin-left:15px;
+  margin-right: 60px;
+}
+
+.logo {
+  width:170px;
+  height:auto;
+  max-width: 100%;
+}
+
+.search-box {
+  width: 330px;
+  height: 30px;
+  padding: 6px 12px;
+  border-radius: 1px;
+  border-color: #a0a0a0;
+}
+
+.search-button {
+  background-color: #a0a0a0;
+  color: #ffffff;
+  width: 100px;
+  height:30px:
+  border: 0;
+  padding: o;
+}
+
+.nav-list {
+  padding: 0;
+  width: 575px;
+  margin-top: 10px;
+}
+
+.nav-list li a {
+  font-size:16px;
+  text-transform: uppercase;
+  font-weight: 700;
+  letter-spacing: 0.2px;
+}
+
+.profile {
+  margin-left: auto;
+}
+
+.account {text-align: right;
+padding: 15px;
+font-color: #364147;
+font-size: 18px;
+}
+
+.account a{
+  font-size: 14px;
+}
+
+.profile-pic {
+  width: 60px;
+  height:60px;
+}
+.profile-pic img {
+  border-radius: 100px;
+  max-width: 100%;
+}
