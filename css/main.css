@@ -1,4 +1,3 @@
-/************* BASE STYLES *************/
 * { box-sizing: border-box; }
 body { font-family: 'Open Sans', sans-serif; font-size: 14px; line-height: 1.4; color: #364147; margin: 0; }
 input, button { font-family: inherit; font-size: inherit; }
@@ -6,4 +5,36 @@ a { color: #faa541; text-decoration: none; }
 ul { padding: 0; margin: 0; list-style: none; }
 nav { padding: 10px 0; }
 h1, h2, h3, h4, h5, h6 { margin: 0; }
-/***************************************/
+/*****************************************/
+
+.container { margin: 0 auto; max-width: 1170px; }
+section { display: flex; }
+
+.flex { display: flex; }
+.flex-column { flex-direction: column; }
+.flex-one { flex: 1; }
+.align-center { align-items: center; }
+.center { justify-content: center; }
+.space-between { justify-content: space-between; }
+
+.btn {
+    cursor: pointer;
+    border: 0;
+    padding: 6px 12px;
+    line-height: 1.4;
+    border-radius: 3px;
+}
+.btn-default { color: #ffffff; background-color: #faa541; }
+.btn-primary { color: #ffffff; background-color: #364147; }
+
+.form-control {
+    display: block; 
+    padding: 6px 12px;
+    line-height: 1.4;
+    color: #8598a2; 
+    border: 1px solid #a0a0a0;
+}
+
+.text-light { font-size: 30px; color: #A0A0A0; }
+.text-secondary { font-size: 30px; color: #faa541; }
+.text-primary { font-size: 16px; color: #364147; }
