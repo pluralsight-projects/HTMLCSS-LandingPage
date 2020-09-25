@@ -9,22 +9,22 @@
 <body>
 
   <!-- NAVIGATION -->
-  <nav>
-    <div>
+  <nav class=header-nav>
+    <div class="container flex space-between">
       <!-- BRANDING -->
-      <div>
+      <div class="flex align-center brand">
         <a href="#">
-          <img alt="Carved Rock Fitness" src="img/carved-rock-logo.png">
+          <img class="logo" alt="Carved Rock Fitness" src="img/carved-rock-logo.png">
         </a>
       </div>
       <!-- SEARCH -->
-      <div>
+      <div class="flex flex-one align-center">
         <div>
           <form>
-            <input aria-label="Search" placeholder="What can we help you find?" type="search">
-            <button type="submit">SEARCH</button>
+            <input class="search-box" aria-label="Search" placeholder="What can we help you find?" type="search">
+            <button class="search-button"type="submit">SEARCH</button>
           </form>
-          <ul>
+          <ul class="flex space-between nav-list">
             <li><a href="#">Clothing</a></li>
             <li><a href="#">Footwear</a></li>
             <li><a href="#">Equipment</a></li>
@@ -33,19 +33,19 @@
           </ul>
         </div>
         <!-- PROFILE -->
-        <div>
-          <div>
+        <div class="flex align-center profile">
+          <div class="flex flex-column account">
             John Doe <a href="#">Log Out</a>
           </div>
-          <div><img alt="John Doe" src="img/profile-pic.jpg"></div>
+          <div class="profile-pic"><img alt="John Doe" src="img/profile-pic.jpg"></div>
         </div>
       </div>
     </div>
   </nav>
 
     <!-- HERO -->
-  <section>
-    <div>
+  <section class="hero">
+    <div class="container flex flex-column align-center center">
       <h1>Get A Grip</h1>
       <h2>20% Off</h2>
       <p>Throughout The Season</p>
@@ -53,16 +53,16 @@
   </section>
 
   <!-- MAIN CONTAINER -->
-  <div>
+  <div class="container">
 
     <!-- SALE BANNER -->
     <section>
-      <div>
+      <div class="flex align-center center">
         <img alt="Brown Boots" src="img/brown-boots.jpg">
-        <div>
-          <div>Couples retreat weekend</div>
-          <div>Save an extra 20%</div>
-          <div>when you buy 2 pairs of boots</div>
+        <div class="banner-text">
+          <div class="text-light">Couples retreat weekend</div>
+          <div class="text-secondary">Save an extra 20%</div>
+          <div class="text-primary">when you buy 2 pairs of boots</div>
         </div>
         <img alt="Grey Boots" src="img/grey-boots.jpg">
       </div>
@@ -70,37 +70,37 @@
 
     <!-- CATEGORIES -->
     <section>
-      <div>
+      <div class="category">
         <a href="#">
-          <img alt="Splash Chic" src="img/category-1.jpg" />
-          <div>
+          <img alt="Splash Chic" src="img/category-1.jpg"/>
+          <div class="category">
             <h3>Splash Chic</h3>
             <div>Women's Wet Gear</div>
           </div>
         </a>
       </div>
-      <div>
+      <div class="category">
         <a href="#">
-          <img alt="Kid Klimbers" src="img/category-2.jpg" />
-          <div>
+          <img alt="Kid Klimbers" src="img/category-2.jpg"/>
+          <div class="category">
             <h3>Kid Klimbers</h3>
             <div>Children's Gear</div>
           </div>
         </a>
       </div>
-      <div>
+      <div class="category">
         <a href="#">
-          <img alt="Pack It In" src="img/category-3.jpg" />
-          <div>
+          <img alt="Pack It In" src="img/category-3.jpg"/>
+          <div class="category">
             <h3>Pack It In</h3>
             <div>Camping Gear</div>
           </div>
         </a>
       </div>
-      <div>
+      <div class="category">
         <a href="#">
-          <img alt="Nature's AC" src="img/category-4.jpg" />
-          <div>
+          <img alt="Nature's AC" src="img/category-4.jpg"/>
+          <div class="category">
             <h3>Nature's AC</h3>
             <div>Men's Shorts</div>
           </div>
@@ -109,13 +109,13 @@
     </section>
 
     <!-- FULL BANNER -->
-    <section>
-      <div></div>
-      <div>
+    <section class="full-banner">
+      <div class="full-banner-image"></div>
+      <div class="flex flex-column align-center center full-banner-sidebar">
         <h4>Trail Review</h4>
         <div>Asphalt</div>
         <div>National Park</div>
-        <a href="#">See Review</a>
+        <a href="#" class="btn btn-default">See Review</a>
       </div>
     </section>
 
@@ -123,9 +123,9 @@
 
   <!-- FOOTER -->
   <footer>
-    <section>
-      <div>
-        <div>Customer Support</div>
+    <section class="container space-between lists">
+        <div>
+        <div class="text-primary link-header">Customer Support</div>
         <ul>
           <li><a href="#">Contact Us</a></li>
           <li><a href="#">Order Tracker</a></li>
@@ -136,7 +136,7 @@
         </ul>
       </div>
       <div>
-        <div>Company Info</div>
+        <div class="text-primary link-header">Company Info</div>
         <ul>
           <li><a href="#">About Us</a></li>
           <li><a href="#">Careers</a></li>
@@ -148,39 +148,40 @@
         </ul>
       </div>
       <div>
-        <div>Privacy &amp; Terms</div>
+        <div class="text-primary link-header">Privacy &amp; Terms</div>
         <ul>
           <li><a href="#">Privacy &amp; Security</a></li>
           <li><a href="#">Statement</a></li>
           <li><a href="#">Terms &amp; Conditions</a></li>
         </ul>
       </div>
-      <div>
-        <div>Follow Us</div>
+      <div class="social">
+        <div class="text-primary link-header">Follow Us</div>
         <ul>
-          <li><a href="#"></a></li>
-          <li><a href="#"></a></li>
-          <li><a href="#"></a></li>
-          <li><a href="#"></a></li>
+          <li><a class="twitter" href="#"></a></li>
+          <li><a class="facebook" href="#"></a></li>
+          <li><a class="instagram" href="#"></a></li>
+          <li><a class="pinterest" href="#"></a></li>
         </ul>
-        <div>
-          <div>Email Updates</div>
-          <div>Exclusive sales, special offers, and more.</div>
-          <input type="text" placeholder="Enter email address" />
-          <button>Sign up</button>
+        <div class="newsletter">
+          <div class= "link-header">Email Updates</div>
+          <div class="link-subheader">Exclusive sales, special offers, and more.</div>
+          <input class="form-control" type="text" placeholder="Enter email address"/>
+          <button class="btn btn-primary"> Sign up</button>
         </div>
       </div>
     </section>
 
     <!-- PS DEMO -->
-    <section>
-      <div>
-        <img src="img/pluralsight-white.png" />
+    <section class="ps">
+      <div class="flex flex-column align-center">
+        <img src="img/pluralsight-white.png"/>
         <div>This site is created for demonstrative purposes only and does not offer any real products or services.</div>
       </div>
     </section>
 
-    <div>&copy;Pluralsight 2018</div>
+    <div class="text-primary">
+      &copy;Pluralsight 2018</div>
   </footer>
 </body>
 </html>

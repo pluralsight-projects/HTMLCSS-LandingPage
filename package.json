@@ -31,14 +31,14 @@
     "chai": "^4.2.0",
     "cheerio": "^1.0.0-rc.2",
     "cross-env": "^5.2.0",
-    "mocha": "^5.2.0",
+    "mocha": "^8.1.3",
     "postcss": "^7.0.5",
     "postcss-merge-longhand": "^4.0.7",
     "postcss-values-parser": "^2.0.0",
     "ramda": "^0.25.0"
   },
   "devDependencies": {
-    "backstopjs": "^3.8.2",
+    "backstopjs": "^5.0.6",
     "lite-server": "^2.4.0"
   }
 }
