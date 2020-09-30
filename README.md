@@ -1,4 +1,4 @@
-# Build a Rock Climbing Company Landing Page with HTML & CSS
+# Build a Awesome 🤘 Rock Climbing Company Landing Page with HTML & CSS
 
 Verify Local Environment
 Installation
@@ -19,3 +19,5 @@ You can also run a visual test using the command `npm run visual:module1`, repla
 
 Previewing Your Work
 In order to see your changes in a browser, you can run npm start from the command line. This will open a browser and you should see your landing page.
+
+Made with ❤
