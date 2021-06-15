@@ -32,7 +32,7 @@
     "cheerio": "^1.0.0-rc.2",
     "cross-env": "^5.2.0",
     "mocha": "^5.2.0",
-    "postcss": "^7.0.5",
+    "postcss": "^7.0.36",
     "postcss-merge-longhand": "^4.0.7",
     "postcss-values-parser": "^2.0.0",
     "ramda": "^0.25.0"
